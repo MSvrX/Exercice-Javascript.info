@@ -1,18 +1,4 @@
-// Boucle While, For, Do...While
-
-//Dernière valeur de boucle
-
-//Quelle est la dernière valeur affichée par ce code ? Pourquoi ?
-
-// let i = 3;
-
-// while (i) {
-//   alert(i--);
-// }
-
-// Réponse: La boucle décrémente de un jusqu'à ce que la variable arrive à 0. A 0, la boucle s'arrête car 0 est une valeur fausse.
-
-//-----------------------------------------------------------------------------------------
+"use strict";
 
 //Quelles valeurs affiche la boucle while ?
 
@@ -32,5 +18,3 @@ Les deux boucles affichent-elles les mêmes valeurs dans l’alert ou pas ?*/
 
 //Réponse: Les deux boucles n'affichent pas les mêmes valeurs car dans la première boucle, l'incrémentation est en préfixe, par conséquent la première valeur renvoyée est la nouvelle valeur modifiée. Dans la deuxième boucle, l'incrémentation est en postfixe, de ce fait, la première valeur renvoyée est donc la dernière valeur non modifiée.
 // Parce que l'alert est une autre instruction de la boucle, la deuxième boucle affichera 5 car il affichera la dernière valeur de i mais dans la comparaison, i affichera 4 et donc 4<5.
-
-//-----------------------------------------------------------------------------------------
